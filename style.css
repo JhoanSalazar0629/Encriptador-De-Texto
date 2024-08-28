@@ -46,22 +46,21 @@ textarea::placeholder{
 .CajaTextoEncriptar{
     
     resize: none;
-    margin: 108px 103px 600px 40px;
+    margin: 108px 103px 190px 0px;
     border: none;
     background-color: #F3F5FC;
     font-size: 32px;
     color: #0A3871;
-    width: 577px;
+    width: 377px;
     font-family: "Inter", sans-serif;
     justify-content: flex-start;
 }
 
 
 .TextoEncriptar{
-    width: 577px;
-    height: 48px;
-    margin: 108px 103px 600px 40px;
-    padding-left: 255px ;
+    width: 377px;
+    margin: 18px 53px 600px 40px;
+    padding-left: 55px ;
     border: none;
     background-color: #F3F5FC;
     font-size: 32px;
@@ -75,7 +74,7 @@ textarea::placeholder{
 
 
 .AreaMensaje{
-    width: 400px;
+    width: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -83,7 +82,7 @@ textarea::placeholder{
     margin-right: 40px;
     border-radius: 30px ;
     font-size: 20px;
-    
+    padding-bottom: auto;
 }
 
 .Mensaje{
@@ -92,9 +91,9 @@ textarea::placeholder{
     background-repeat: no-repeat;
     display: flex;
     border: none;
-    padding: 150px;
+    padding: 130px;
     align-items: center;
-    margin: 243px 32px 32px 32px;
+    margin: 23px 5px 2px 5px;
    
     
     
@@ -112,16 +111,15 @@ h4{
 }
 
 .Texto{
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
-    padding: 0 0 243px 0;
     font-family: "Inter", sans-serif;
     margin: 0 32px 0 32px;
     align-items: flex-end;
 }
 
 .Texto p{
-    font-size: 26px
+    font-size: 16px
 }
 
 
@@ -131,14 +129,14 @@ h4{
 }
 
 .Logo {
-    width: 120px;
-    padding: 40px 0 0 40px;
+    width: 50px;
+    padding: 40px 0px 0px 0px;
     
     
 }
 
 .encriptar{
-    width: 328px;
+    width: 228px;
     background-color: #0A3871;
     padding: 24px;
     color: white;
@@ -150,7 +148,7 @@ h4{
 }
 
 .desencriptar{
-    width: 328px;
+    width: 228px;
     background-color: #D8DFE8;
     padding: 24px;
     color: #0A3871;
