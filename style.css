@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    
+
+
+body {
+    background-color: #F3F5FC;
+    
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    width: auto;
+}
+
+h4{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+.Convertidor{
+    display: flex;
+    
+    
+}
+
+.botones{
+    width: 680px;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+    
+}
+
+.CajaTextoEncriptar{
+    
+    resize: none;
+    margin: 108px 103px 600px 40px;
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 32px;
+    color: #0A3871;
+    width: 577px;
+    font-family: "Inter", sans-serif;
+    justify-content: flex-start;
+}
+
+
+.TextoEncriptar{
+    width: 577px;
+    height: 48px;
+    margin: 108px 103px 600px 40px;
+    padding-left: 255px ;
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 32px;
+    color: #0A3871;
+    width: 577px;
+    font-family: "Inter", sans-serif;
+    justify-content: flex-start;    
+    
+}
+
+
+
+.AreaMensaje{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 40px;
+    border-radius: 30px ;
+    font-size: 20px;
+    
+}
+
+.Mensaje{
+    background-color: white;
+    background-image: url(img/PersonaDiamante.png);
+    background-repeat: no-repeat;
+    display: flex;
+    border: none;
+    padding: 150px;
+    align-items: center;
+    margin: 243px 32px 32px 32px;
+   
+    
+    
+    
+    
+}
+
+h4{
+    font-size: 12;
+    font-family: "Inter", sans-serif;
+}
+
+.Frame{
+    width: 16px;
+}
+
+.Texto{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 243px 0;
+    font-family: "Inter", sans-serif;
+    margin: 0 32px 0 32px;
+    align-items: flex-end;
+}
+
+.Texto p{
+    font-size: 26px
+}
+
+
+.Persona {
+    width: 336px;
+    padding: 243px 0 0 0;
+}
+
+.Logo {
+    width: 120px;
+    padding: 40px 0 0 40px;
+    
+    
+}
+
+.encriptar{
+    width: 328px;
+    background-color: #0A3871;
+    padding: 24px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    
+    
+}
+
+.desencriptar{
+    width: 328px;
+    background-color: #D8DFE8;
+    padding: 24px;
+    color: #0A3871;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    
+}
